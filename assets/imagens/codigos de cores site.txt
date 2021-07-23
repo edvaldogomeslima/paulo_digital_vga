@@ -1,0 +1,16 @@
+Azul - #0d1c53
+
+
+Branco - #fffffd
+
+
+Verde - #388c50
+
+
+Verde Claro - #93c64d
+
+
+Amarelo - #fedd30
+
+
+Preto - #242424
