@@ -23,12 +23,11 @@
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
-    background-image: url(/assets/imagens/baner2.png);
     
 }
 
 body {
-    color: var(--color-dark);
-    background: var(--color-light);
+    color: var(--color-preto);
+    background: var(--color-branco);
     -webkit-font-smoothing: antialiased !important;
   }
