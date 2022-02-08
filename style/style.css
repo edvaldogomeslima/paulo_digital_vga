@@ -60,7 +60,7 @@ p,li{
 header{
     width: 100%;
     height: 100vh;
-    background: #FF6600;
+    background: #071B66;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
