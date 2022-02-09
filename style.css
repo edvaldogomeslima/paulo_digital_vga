@@ -201,6 +201,196 @@ nav {
   border: 1px solid black;
 }
 
+.free{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  font-family: 'Poppins', sans-serif;  
+
+}
+.free .free1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 130px;
+}
+.free .free1 .free2 h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.free .free1 .free2 p{
+  font-size: 20px;
+}
+.free .free1 .free2 .free3 i{
+  color: #34af23;
+  padding: 10px;
+}
+.free .free1 .free2 .free3{
+  display: flex;
+  flex-direction: column;
+}
+.free .free1 img{
+  width: 600px;
+}
+
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;  
+  color: #fff;
+}
+.services .services1{
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+  background:#1B304D;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.services .services1 i{
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.services .services1 h2{
+  text-align: center;
+}
+.services .services1 p{
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.call{
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+.call .contato{
+  margin: 30px;
+}
+.call .contato .contato1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.call .contato .contato1 i{
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.call .contato .contato1 h2{
+  font-size: 20px;
+}
+.call .contato .contato1 p{
+  font-size: 15px;
+}
+
+.call .contato .forms{
+  display: flex;
+  flex-direction: column;
+}
+.call .contato .forms label{
+  font-size: 15px;
+  font-weight: 600;
+}
+.call .contato .forms input,
+.call .contato .forms textarea{
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #1B304D;
+  background: #1B304D;
+  color: #fff;
+}
+.call .contato .forms button{
+  padding: 10px;
+  width: 20%;
+  border: transparent;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #34af23;
+  
+}
+
+footer{
+  display: flex;
+  background-color: #1B304D;
+  height: 200px;
+  width: 100%;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;  
+
+}
+footer .foot h2{
+  font-size: 20px;
+}
+footer .foot p.about{
+  width: 80%;
+}
+footer .foot p{
+  font-size: 15px;
+}
+footer .foot i{
+  font-size: 30px;
+  padding-right: 20px;
+}
+footer .foot{
+  margin: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-whatsapp i{
+  color: #FFFFFF;
+}
+.btn-whatsapp {
+  position: fixed;
+  outline: none;
+  bottom:30px;
+  right: 30px;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  cursor: pointer;
+  background-color: #34af23;
+  color:  #FFF;
+  font-size: 2.3rem;
+  border: 1px solid transparent;
+
+  animation-name: pulsar;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
@@ -245,11 +435,37 @@ nav {
   .planos{
     flex-wrap: wrap
   }
+  .call{
+    flex-wrap: wrap;
+  }
+  footer{
+    flex-wrap: wrap;
+    height:100%;
+  }
+  .free{
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .free .free1 img{
+    width: 300px;
+  }
 }
+
 
 .nav-list.active {
   transform: translateX(0);
 }
+@media (min-width: 999px) {
+  .banner1 h1{
+    font-size: 60px;
+    margin-left: 12%;
+  }
+  .banner1 p,
+  .banner1 button{
+    margin-left: 12%;
+  }
+}
+
 
 @keyframes navLinkFade {
   from {
@@ -259,6 +475,17 @@ nav {
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes pulsar{
+  0% {
+    height: 65px;
+    width: 65px;
+  }
+  100% {
+    height: 85px;
+    width: 85px;
   }
 }
 
