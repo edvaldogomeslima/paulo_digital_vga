@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a {
   color: #666666;
   text-decoration: none;
@@ -396,6 +400,10 @@ footer .foot.foot1 p{
   padding: 5px;
   transition: 1s;
   cursor: pointer;
+}
+footer .foot.foot1 a{
+  text-decoration: none;
+  color: white;
 }
 footer .foot.foot1 p.central{
   color: #FF6600;
