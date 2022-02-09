@@ -2,6 +2,8 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
+  list-style: none;
 }
 
 html{
@@ -18,68 +20,46 @@ a:hover {
   opacity: 0.7;
 }
 
-.logo img{
-  width: 200px;
-  padding-top: 20px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+nav{
   font-family: 'Poppins', sans-serif;  
-  background: #FFFFFF;
-  height: 8vh;
-  margin-bottom: 15px;
-}
-
-
-.nav-list {
-  list-style: none;
+  background: #fff;
+  height: 80px;
+  padding: 0 50px;
   display: flex;
-  
+  align-items: center;
+  justify-content: space-between;
 }
-
-.nav-list li {  
-    padding-top: 20px;
-    margin-left: 32px;
+.logo{
+  height: 40px;
 }
-.nav-list li a.cliente{
-    padding: 10px 20px;
-    background: #FF6600;
-    text-align: center;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-weight: 500;
-}
-.nav-list li a i{
-  font-size: 20px;
+nav ul{
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 2px;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #000;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+li a.active, li a:hover{
+  background: #FF6600;
   color: white;
-  border: 1px solid #FF6600;
-  background-color: #FF6600;
-  width: 35px;
-  height: 35px;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
 }
 
-.mobile-menu {
-  display: none;
-  cursor: pointer;
-}
-.mobile-menu{
-    padding-top: 25px;
-}
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #FF6600;
-  margin: 8px;
-  transition: 0.3s;
- 
-}
 
 .banner{
     width: 100%;
@@ -557,6 +537,41 @@ footer .foot.social{
   }
 }
 
+@media (max-width: 952px){
+  nav ul li a{
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+      display: flex;
+  }
+  nav{
+      padding: 0 30px;
+  }
+  ul{
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 80px);
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      flex-direction: column;
+      z-index: 10;
+  }
+  nav ul li{
+      margin: 20px 0;
+  }
+  nav ul li a{
+      font-size: 20px;
+  }
+  #check:checked ~ ul{
+      left:0;
+  }
+}
 
 @keyframes navLinkFade {
   from {
