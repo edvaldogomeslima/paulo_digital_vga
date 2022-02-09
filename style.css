@@ -567,6 +567,7 @@ footer .foot.social{
   }
   nav ul li a{
       font-size: 20px;
+      color: #fff;
   }
   #check:checked ~ ul{
       left:0;
