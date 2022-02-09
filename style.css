@@ -150,7 +150,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  margin-bottom: 40px;
 }
 .planos1{
   background: #FF6600;
@@ -217,37 +217,44 @@ nav {
   border: 1px solid black;
 }
 
-.free{
+.gratis{
+  margin: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 700px;
   font-family: 'Poppins', sans-serif;  
 
 }
-.free .free1{
+.gratis .gratis1{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 130px;
-}
-.free .free1 .free2 h2{
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-.free .free1 .free2 p{
-  font-size: 20px;
-}
-.free .free1 .free2 .free3 i{
-  color: #34af23;
-  padding: 10px;
-}
-.free .free1 .free2 .free3{
-  display: flex;
   flex-direction: column;
+  width: 30%; 
 }
-.free .free1 img{
+.gratis .gratis1 h2{
+  font-size: 30px;
+  
+}
+.gratis .gratis1 p{
+  width: 60%;
+}
+.gratis .gratis1 .gratis2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+}
+.gratis .gratis1 .gratis2 i{
+  padding-left: 35px;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.gratis .gratis1 img{
+  
   width: 600px;
 }
 
@@ -258,6 +265,7 @@ nav {
   font-family: 'Poppins', sans-serif;  
   color: #fff;
 }
+
 .services .services1{
   display: flex;
   padding: 30px;
@@ -491,6 +499,22 @@ footer .foot.social{
   }
   .free .free1 img{
     width: 300px;
+  }
+  .gratis{
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .gratis .gratis1 p{
+    width: 90%;
+    
+  }
+  .gratis .gratis1{
+    width: 100%;
+  }
+  .gratis .gratis1 img{
+    padding-top: 20px;
+    width: 400px;
+    margin-bottom: 20px;
   }
   .services{
     flex-wrap: wrap;
