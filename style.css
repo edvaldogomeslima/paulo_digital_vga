@@ -43,9 +43,22 @@ nav {
 .nav-list li a.cliente{
     padding: 10px 20px;
     background: #FF6600;
+    text-align: center;
     border-radius: 5px;
     color: #FFFFFF;
     font-weight: 500;
+}
+.nav-list li a i{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid #FF6600;
+  background-color: #FF6600;
+  width: 35px;
+  height: 35px;
 }
 
 .mobile-menu {
@@ -448,6 +461,9 @@ footer .foot{
   }
   .free .free1 img{
     width: 300px;
+  }
+  .services{
+    flex-wrap: wrap;
   }
 }
 
