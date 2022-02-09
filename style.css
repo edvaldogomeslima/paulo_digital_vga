@@ -86,6 +86,9 @@ nav {
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     position: relative;
 }
+/* .banner .banner1 img{
+  width: 490px;
+} */
 .banner .banner1{
   padding-top: 70px;
 }
@@ -204,7 +207,7 @@ nav {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   color: #FFFFFF;
-  background-color: #1B304D;
+  background-color: #34af23;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;  
 
@@ -341,7 +344,7 @@ nav {
 
 footer{
   display: flex;
-  background-color: #34af23;
+  background-color: #1B304D;
   height: 200px;
   width: 100%;
   color: #fff;
@@ -360,9 +363,14 @@ footer .foot p{
 footer .foot i{
   font-size: 30px;
   padding-right: 20px;
+  color: #1B304D;
 }
 footer .foot{
-  margin: 50px;
+  margin: 40px;
+}
+footer img{
+  width: 200px;
+  margin-top: 5px;
 }
 
 
