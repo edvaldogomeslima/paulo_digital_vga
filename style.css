@@ -373,8 +373,9 @@ footer .foot p{
 }
 footer .foot i{
   font-size: 30px;
-  padding-right: 20px;
+  padding-right: 30px;
   color: #fff;
+  padding-top: 15px;
 }
 footer .foot{
   margin: 40px;
