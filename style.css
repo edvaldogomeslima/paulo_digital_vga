@@ -341,15 +341,20 @@ nav {
   color: #fff;
 }
 .call .contato .forms button{
-  padding: 15px;
-  width: 20%;
-  border: transparent;
-  border-radius: 10px;
+  font-size: 14px;
+  width: 30%;
   text-align: center;
-  background-color: #34af23;
-  color: #fff;
-  text-transform: uppercase;
+  cursor: pointer;
+  border: transparent;
+  padding: 10px 15px;
   letter-spacing: 3px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #FFFFFF;
+  background-color: #34af23;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
   
 }
 
