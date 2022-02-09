@@ -341,12 +341,15 @@ nav {
   color: #fff;
 }
 .call .contato .forms button{
-  padding: 10px;
+  padding: 15px;
   width: 20%;
   border: transparent;
   border-radius: 10px;
   text-align: center;
   background-color: #34af23;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
   
 }
 
@@ -519,6 +522,10 @@ footer .foot.social{
   .services{
     flex-wrap: wrap;
   }
+  .contato .forms{
+    margin-right: 15px;
+  }
+  
 }
 
 
