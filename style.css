@@ -345,7 +345,7 @@ nav {
 footer{
   display: flex;
   background-color: #1B304D;
-  height: 200px;
+  height: 330px;
   width: 100%;
   color: #fff;
   font-family: 'Poppins', sans-serif;  
@@ -355,7 +355,7 @@ footer .foot h2{
   font-size: 20px;
 }
 footer .foot p.about{
-  width: 80%;
+  width: 90%;
 }
 footer .foot p{
   font-size: 15px;
@@ -363,14 +363,36 @@ footer .foot p{
 footer .foot i{
   font-size: 30px;
   padding-right: 20px;
-  color: #1B304D;
+  color: #fff;
 }
 footer .foot{
   margin: 40px;
 }
+footer .foot.foot1{
+  width: 80%;
+  
+}
+footer .foot.foot1{
+  text-align: center;
+}
+footer .foot.foot1 p{
+  padding: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+footer .foot.foot1 p.central{
+  color: #FF6600;
+}
+footer .foot.foot1 p:hover{
+  text-decoration: underline;
+  color: #666666;
+}
 footer img{
   width: 200px;
   margin-top: 5px;
+}
+footer .foot.social{
+  width: 80%;
 }
 
 
