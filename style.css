@@ -82,7 +82,7 @@ nav {
     height: 70vh;
     display: flex;
     flex-direction: column;
-    background: #FF6600;
+    background: #1B304D;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     position: relative;
 }
