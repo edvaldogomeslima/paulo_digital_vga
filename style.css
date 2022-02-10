@@ -363,6 +363,7 @@ li a.active, li a:hover{
   align-items: center;
   flex-wrap: wrap;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
 
 }
 .sobre .sobre1 img{
