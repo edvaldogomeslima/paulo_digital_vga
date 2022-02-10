@@ -396,7 +396,7 @@ li a.active, li a:hover{
 footer{
   display: flex;
   background: linear-gradient(90deg, #071B66 0%, #00338C 39.95%, #1533C0 100%);
-  height: 330px;
+  height: 150px;
   width: 100%;
   color: #fff;
   font-family: 'Poppins', sans-serif;  
@@ -416,13 +416,13 @@ footer .foot i{
   padding-right: 30px;
   color: #fff;
   padding-top: 15px;
+  
+}
+footer .foot .icon{
+  margin-left: 50px;
 }
 footer .foot{
   margin: 40px;
-}
-footer .foot.foot1{
-  width: 80%;
-  
 }
 footer .foot.foot1{
   text-align: center;
@@ -446,9 +446,6 @@ footer .foot.foot1 p:hover{
 footer img{
   width: 200px;
   margin-top: 5px;
-}
-footer .foot.social{
-  width: 80%;
 }
 
 
@@ -540,6 +537,7 @@ footer .foot.social{
   footer{
     flex-wrap: wrap;
     height:100%;
+    width: 100%;
   }
   .free{
     flex-wrap: wrap;
