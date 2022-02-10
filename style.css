@@ -64,11 +64,14 @@ li a.active, li a:hover{
 
 .banner{
     width: 100%;
-    height: 70vh;
+    /* height: 70vh; */
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(90deg, #071B66 0%, #00338C 39.95%, #1533C0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    background-image: url(Banne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%); */
     position: relative;
 }
 /* .banner .banner1 img{
@@ -220,7 +223,7 @@ li a.active, li a:hover{
   width: 30%; 
 }
 .gratis .gratis1 h2{
-  font-size: 30px;
+  
   
 }
 .gratis .gratis1 p{
@@ -587,7 +590,7 @@ footer img{
 }
 @media (min-width: 999px) {
   .banner1 h1{
-    font-size: 60px;
+    font-size: 100px;
     margin-left: 12%;
   }
   .banner1 p,
