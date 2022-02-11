@@ -29,6 +29,64 @@ nav{
   align-items: center;
   justify-content: space-between;
 }
+button.men{
+  display: none;
+}
+
+nav img{
+  width: 240px;
+  text-align: left;
+}
+
+nav div.logotipo img{
+  font-size: 32px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+nav div.menu{
+  width: 70%;
+  text-align: right;
+  cursor: pointer;
+}
+
+nav div.menu a{
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+
+  font-weight: 300;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+nav div.menu a:hover{
+  border: 1px solid black;
+  background-color: transparent !important;
+}
+
+nav div.menu a:last-of-type{
+  background-color: #3CB372;
+  border: 1px solid #3CB372;
+}
+
+
+
+/* nav{
+  font-family: 'Poppins', sans-serif;  
+  background: #fff;
+  height: 80px;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .logo{
   width: 240px;
   padding-top: 10px;
@@ -59,7 +117,7 @@ li a.active, li a:hover{
 }
 #check{
   display: none;
-}
+} */
 
 
 .banner{
@@ -142,7 +200,7 @@ li a.active, li a:hover{
   margin-bottom: 40px;
 }
 .planos1{
-  background: #FF6600;
+  background: linear-gradient(90deg, #071B66 0%, #00338C 39.95%, #1533C0 100%);
   margin: 10px;
   border-radius: 20px;
   border: 1px solid black;
@@ -152,7 +210,13 @@ li a.active, li a:hover{
   align-items: center;
   flex-direction: column;
 }
-
+.planos1.plan{
+  color: white;
+}
+.planos1.plan h3{
+  color: #34af23;
+  border-bottom: 1px solid #34af23;
+}
 .planos1 img{
   padding-top: 20px;
 }
@@ -489,6 +553,48 @@ footer img{
 
 
 @media (max-width: 999px) {
+  /* ::-webkit-scrollbar{
+    display: none;
+} */
+
+button.men{
+    width: 75%;
+    display: block;
+    font-size: 32px;
+    color: black;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    text-align: right;
+}
+
+header nav div.menu{
+    position: absolute;
+    width: 100%;
+    
+    top: 0;
+    left: 0;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    height: 0;
+    overflow-x: hidden;
+    transition: height 0.5s;
+    background: linear-gradient(90deg, #071B66 0%, #00338C 39.95%, #1533C0 100%);
+    opacity: 90%;
+    
+}
+
+header nav div.menu a{
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 20px 0;
+    color: #fff;
+}
+nav div.menu a:hover{
+  background: #34af23;
+}
   body {
     overflow-x: hidden;
   }
@@ -591,8 +697,9 @@ footer img{
 @media (max-width: 999px) {
  
 
-  nav{
-     
+  nav img{
+    width: 190px;
+    
   }
   .banner{
     background-size: contain;

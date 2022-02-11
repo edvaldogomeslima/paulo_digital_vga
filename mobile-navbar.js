@@ -1,44 +1,39 @@
-class MobileNavbar {
-  constructor(mobileMenu, navList, navLinks) {
-    this.mobileMenu = document.querySelector(mobileMenu);
-    this.navList = document.querySelector(navList);
-    this.navLinks = document.querySelectorAll(navLinks);
-    this.activeClass = "active";
+const navegacao = document.querySelector("header nav div.menu")
+const menu = document.querySelector("header nav button")
 
-    this.handleClick = this.handleClick.bind(this);
-  }
+menu.addEventListener("click", () => {
+    navegacao.style.height = "35vh"
+})
 
-  animateLinks() {
-    this.navLinks.forEach((link, index) => {
-      link.style.animation
-        ? (link.style.animation = "")
-        : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-            index / 7 + 0.3
-          }s`);
-    });
-  }
+navegacao.addEventListener("click", () => {
+    navegacao.style.height = "0"
+})
 
-  handleClick() {
-    this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass);
-    this.animateLinks();
-  }
+window.addEventListener("scroll", () => {
 
-  addClickEvent() {
-    this.mobileMenu.addEventListener("click", this.handleClick);
-  }
+        document.querySelectorAll(".esquerda").forEach((animacao, index) => {
+            if(animacao.getBoundingClientRect().top < window.innerHeight - 50){
 
-  init() {
-    if (this.mobileMenu) {
-      this.addClickEvent();
-    }
-    return this;
-  }
-}
+                animacao.classList.add("efeitoScroll")
 
-const mobileNavbar = new MobileNavbar(
-  ".mobile-menu",
-  ".nav-list",
-  ".nav-list li",
-);
-mobileNavbar.init();
+            }
+        })
+
+        document.querySelectorAll(".direita").forEach((animacao, index) => {
+            if(animacao.getBoundingClientRect().top < window.innerHeight - 50){
+
+                animacao.classList.add("efeitoScroll")
+
+            }
+        })
+
+        document.querySelectorAll(".baixo").forEach((animacao, index) => {
+            if(animacao.getBoundingClientRect().top < window.innerHeight - 50){
+
+                animacao.classList.add("efeitoScroll")
+
+            }
+        })
+
+
+})
