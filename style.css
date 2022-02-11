@@ -592,8 +592,8 @@ footer img{
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
-    margin-bottom: -540px;
+    height: 30vh;
+    margin-bottom: 2px;
     
   }
   .banner h1{
