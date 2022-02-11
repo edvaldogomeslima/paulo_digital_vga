@@ -593,9 +593,7 @@ footer img{
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-bottom: -540px;
     
   }
   .banner h1{
@@ -606,6 +604,7 @@ footer img{
   }
   .banner .banner1{
     padding-top: 13px;
+    
   }
   .banner p{
     font-size: 10px;
