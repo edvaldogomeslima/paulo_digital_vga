@@ -2,7 +2,7 @@ const navegacao = document.querySelector("header nav div.menu")
 const menu = document.querySelector("header nav button")
 
 menu.addEventListener("click", () => {
-    navegacao.style.height = "35vh"
+    navegacao.style.height = "55vh"
 })
 
 navegacao.addEventListener("click", () => {
