@@ -85,7 +85,7 @@ li a.active, li a:hover{
     font-size: 100px;
     font-weight: 600;
     color: #FFFFFF;
-    width: 100%;
+    
     margin-left: 5%;
     flex-wrap: nowrap;
     text-transform: uppercase;
