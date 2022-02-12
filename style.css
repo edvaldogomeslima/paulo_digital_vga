@@ -73,12 +73,14 @@ nav div.menu a{
 
 nav div.menu a:hover{
   border: 1px solid #34af23;
-  background-color: transparent !important;
+  background-color: #00338C !important;
+  
 }
 
 nav div.menu a.active{
   background-color: #34af23;
   border: 1px solid #34af23;
+  color: white !important;
 }
 
 .imag img{
