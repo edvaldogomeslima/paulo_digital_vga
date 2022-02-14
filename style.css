@@ -73,7 +73,7 @@ nav div.menu a{
 
 nav div.menu a:hover{
   border: 1px solid #34af23;
-  background-color: #00338C !important;
+  background-color: #34af23 !important;
   
 }
 
@@ -224,7 +224,7 @@ nav div.menu a.active{
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   color: #FFFFFF;
-  background-color: #FF6600;
+  background-color: #34af23;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;  
 
@@ -366,7 +366,7 @@ nav div.menu a.active{
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   color: #FFFFFF;
-  background-color: #FF6600;
+  background-color: #34af23;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   
